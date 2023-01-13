@@ -3,16 +3,22 @@ import React from 'react';
 import { BrowserRouter, Routes as Switch, Route } from 'react-router-dom';
 
 import Menu from '../Components/menu';
+import Footer from '../Components/footer';
 
 const Routes = () => {
   return(
-    <BrowserRouter>
-      <Menu />
-      <Switch>
+    <div>
+      <BrowserRouter>
+        <div><Menu /></div>
+        <div className='body'>
+          <Switch>
 
-      </Switch>
-    
-    </BrowserRouter>    
+          </Switch>
+        </div>
+        <div><Footer /></div>
+
+      </BrowserRouter>
+    </div> 
   )
 }
 

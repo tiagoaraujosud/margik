@@ -27,3 +27,14 @@ nav ul li a {
     text-decoration: none; 
     border-bottom:3px solid #EDEDED; 
 }
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.logo {
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
+}
