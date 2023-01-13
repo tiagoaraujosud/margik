@@ -1,21 +1,24 @@
 import React from 'react';
-
+import './styles.css';
 import { BrowserRouter, Routes as Switch, Route } from 'react-router-dom';
 
 import Menu from '../Components/menu';
 import Footer from '../Components/footer';
+import Home from '../Pages/home'
 
 const Routes = () => {
   return(
-    <div>
+    <div className='container'>
       <BrowserRouter>
-        <div><Menu /></div>
-        <div className='body'>
-          <Switch>
+        <div className='menu'><Menu /></div>
 
+        <div>
+          <Switch>
+          <Route path="/" element={<Home />} />
           </Switch>
         </div>
-        <div><Footer /></div>
+        
+        <div className='footer'><Footer /></div>
 
       </BrowserRouter>
     </div> 

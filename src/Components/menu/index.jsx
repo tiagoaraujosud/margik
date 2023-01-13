@@ -7,10 +7,9 @@ function Menu() {
   
   return(
     <>
-    <nav>
       <ul className='menu'>
         <li className="logo">
-          <a href="#"><img src="../../../public/images/Margik_Logo_Full_Color.png"></img></a>
+          <a href="#"><img src="../../../public/images/download.jpg"></img></a>
         </li>
         <li className='menu__item'>
           <Link to='/'>Home</Link>
@@ -29,7 +28,6 @@ function Menu() {
         </li>
 
       </ul>  
-    </nav>
     </>
   )
 }
