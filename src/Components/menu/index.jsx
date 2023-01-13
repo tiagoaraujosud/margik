@@ -1,5 +1,6 @@
 import './styles.css';
 import React from 'react';
+import menu_logo from './img/menu_logo.png';
 
 import { Link } from 'react-router-dom';
 
@@ -9,7 +10,7 @@ function Menu() {
     <>
       <ul className='menu'>
         <li className="logo">
-          <a href="#"><img src="../../../public/images/download.jpg"></img></a>
+          <a href="#"><img src={menu_logo}></img></a>
         </li>
         <li className='menu__item'>
           <Link to='/'>Home</Link>

@@ -1,12 +1,9 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	
 }
 
-.container div:nth-child(2) {
-	justify-content: space-around;
-}
 
 .container div:nth-child(3) {
 	align-self: flex-end;

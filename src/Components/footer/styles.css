@@ -8,6 +8,9 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
+    background-image: url("./img/background.jpg");
+    align-items: center;
+    margin: 0 0;
 }
 .footer img{
     max-width:50px;
