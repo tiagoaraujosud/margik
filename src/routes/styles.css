@@ -1,9 +1,7 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	
 }
-
 
 .container div:nth-child(3) {
 	align-self: flex-end;

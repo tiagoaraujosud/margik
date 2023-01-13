@@ -18,18 +18,45 @@ function Home() {
           
         </div>
       </div>
-      <div>See our products</div>
+      
+      <div> <h1>See our products</h1> </div>
+
       <div className='products'>
         
+        <div className='product'>
+          <a href="#"><img src={skull1}></img></a>
+          <h5>OLED Dia de Muertos Ignasi Sticker - Sigle</h5>
+        </div>
 
+        <div className='product'>
+          <a href="#"><img src={skull2}></img></a>
+          <h5>OLED Dia de Muertos Fior Sticker - Sigle</h5>
+        </div>
 
-        <div className='product'><a href="#"><img src={skull1}></img></a></div>
-        <div className='product'><a href="#"><img src={skull2}></img></a></div>
-        <div className='product'><a href="#"><img src={bat}></img></a></div>
-        <div className='product'><a href="#"><img src={boo}></img></a></div>
-        <div className='product'><a href="#"><img src={skull1}></img></a></div>
-        <div className='product'><a href="#"><img src={skull1}></img></a></div>
-        <div className='product'><a href="#"><img src={skull1}></img></a></div>
+        <div className='product'><a href="#">
+          <img src={bat}></img></a>
+          <h5>OLED Dia de Muertos Bat Sticker - Sigle</h5>
+        </div>
+
+        <div className='product'><a href="#">
+          <img src={boo}></img></a>
+          <h5>OLED Dia de Muertos Ghost Sticker - Sigle</h5>
+        </div>
+
+        <div className='product'>
+          <a href="#"><img src={skull1}></img></a>
+          <h5>OLED Dia de Muertos Ignasi</h5>
+        </div>
+
+        <div className='product'>
+          <a href="#"><img src={skull1}></img></a>
+          <h5>OLED Dia de Muertos Ignasi</h5>
+        </div>
+
+        <div className='product'>
+          <a href="#"><img src={skull1}></img></a>
+          <h5>OLED Dia de Muertos Ignasi</h5>
+        </div>
 
       </div>
 

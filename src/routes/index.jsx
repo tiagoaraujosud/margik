@@ -11,13 +11,11 @@ const Routes = () => {
     <div className='container'>
       <BrowserRouter>
         <div className='menu'><Menu /></div>
-
-        <div>
+        <div className='body'>
           <Switch>
           <Route path="/" element={<Home />} />
           </Switch>
         </div>
-        
         <div className='footer'><Footer /></div>
 
       </BrowserRouter>

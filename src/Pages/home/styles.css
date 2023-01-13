@@ -99,4 +99,9 @@ img {
     align-items: flex-start;
     flex-wrap: wrap;
     align-content: flex-start;
+    margin-left: 50px;
+}
+
+.product {
+    margin-left: 50px;
 }
